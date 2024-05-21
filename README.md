@@ -5,7 +5,7 @@ It is meant to be a minimal reproducible example of a Webpack error that occurs 
 
 ## Environment Setup
 
-Copy the `.env.example` file to `.env` and replace/fill in the values as needed.
+Copy the `.env.example` file to `.env`. You can leave the values as they are, since all we really need is the GraphQL query endpoint.
 
 ## Installing dependencies
 
