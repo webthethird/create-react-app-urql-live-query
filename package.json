@@ -5,6 +5,7 @@
   "dependencies": {
     "@graphprotocol/client-urql": "^2.0.3",
     "@tanstack/react-query": "^4.32.0",
+    "ethers": "^5.5.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "urql": "^2.1.3",
