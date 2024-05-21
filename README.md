@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+It is meant to be a minimal reproducible example of a Webpack error that occurs when trying to use `@live` queries with the Graph Client + Urql. Based on the [Urql `@live` query example](https://github.com/graphprotocol/graph-client/tree/main/examples/urql-live-query) from the Graph Client repository, which uses Vite instead of Webpack.
 
 ## Environment Setup
 
