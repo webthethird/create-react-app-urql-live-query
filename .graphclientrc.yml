@@ -1,0 +1,8 @@
+sources:
+  - name: increment-test
+    handler:
+      graphql:
+        endpoint: https://api.studio.thegraph.com/query/75483/increment-test/v0.0.1
+plugins:
+  - pollingLive:
+      defaultInterval: 14000

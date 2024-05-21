@@ -1,0 +1,13 @@
+query PastDayHourlyCandlesLive($marketId: ID!, $from: BigInt) @live {
+  market(id: $marketId) {
+    earliestPrice
+    hourlyCandles(orderBy: openTimestamp, orderDirection: asc, where: { openTimestamp_gt: $from }) {
+      openTimestamp
+      open
+      close
+      high
+      low
+      volume
+    }
+  }
+}
